@@ -1,0 +1,13 @@
+{
+	"elements":
+	[
+		{ "name": "SourceVariableWW", "type": "SelectVariable", "caption": "Variable (WW)" },
+		{ "name": "SourceVariableKW", "type": "SelectVariable", "caption": "Variable (KW)" }
+	],
+	"actions":
+	[
+		{ "name": "ValueWW", "type": "NumberSpinner", "caption": "WW" },
+		{ "name": "ValueKW", "type": "NumberSpinner", "caption": "KW" },
+		{ "type": "Button", "label": "Set CCT", "onClick": "CCTM_SetCCT($id, $ValueWW, $ValueKW);" }
+	]
+}

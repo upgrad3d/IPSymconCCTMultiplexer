@@ -1,0 +1,15 @@
+{
+	"id": "{6C60561C-B51D-A300-D1AF-7F19241B6CD0}",
+	"name": "CCTMultiplexer",
+	"type": 3,
+	"vendor": "",
+	"aliases": 
+	[
+		"CCT Multiplexer"
+	],
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "CCTM",
+	"url": ""
+}
