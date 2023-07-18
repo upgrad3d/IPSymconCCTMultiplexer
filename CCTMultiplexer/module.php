@@ -50,8 +50,8 @@ class CCTMultiplexer extends IPSModule
             $this->RegisterReference($this->ReadPropertyInteger('SourceVariableWW'));
         }
         if ($this->ReadPropertyInteger('SourceVariableKW') > 0) {
-            $this->RegisterMessage($this->ReadPropertyInteger('SourceVariableG'), VM_UPDATE);
-            $this->RegisterReference($this->ReadPropertyInteger('SourceVariableG'));
+            $this->RegisterMessage($this->ReadPropertyInteger('SourceVariableKW'), VM_UPDATE);
+            $this->RegisterReference($this->ReadPropertyInteger('SourceVariableKW'));
         }
     }
 
