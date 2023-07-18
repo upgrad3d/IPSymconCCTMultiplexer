@@ -1,10 +1,10 @@
 {
 	"translations": {
 		"de": { 
-			"Variable (WW)": "Variable (R)",
-			"Variable (KW)": "Variable (G)",
-			"WW": "Warmweiß",
-			"KW": "Kaltweiß",
+			"Variable (WW)": "Variable (Warmweiß)",
+			"Variable (KW)": "Variable (Kaltweiß)",
+			"WW": "Warmweiß 0-255",
+			"KW": "Kaltweiß 0-255",
 			"Set CCT": "CCT setzen"
 		}
 	}
